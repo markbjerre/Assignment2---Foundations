@@ -31,3 +31,20 @@ Fail_All(student)
 
 Student: 
 ATTRIBUTES
+fname = str
+lnmae = str
+name = str, fname + lname
+programe = DiplomaProgramme class object
+id = str, student + counter
+assignments = dict, key = Course object, /
+val = list of assignments (True/False/NaN)
+
+METHODS
+Set_ID() - called on instance creation
+Set_Assignments(course) - called on student assignment to course, course method Add_Student
+Remove_Assignments(course) - called when course is errased, Programme method Remove_Course(course)
+Get_Courses()
+Get_Grades()
+Show_Grades()
+
+something new
